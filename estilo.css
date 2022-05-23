@@ -1,0 +1,50 @@
+body{
+    background-color: whitesmoke;
+}
+.res {
+    background-color: rgb(44, 135, 240);
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px outset;
+    padding: 15px 40px;
+    text-align: center;
+    font-weight: 700;
+  }
+  .diass {
+    background-color: rgb(44, 135, 240);
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px outset;
+    padding: 15px 40px;
+    text-align: center;
+    font-weight: 700;
+  }
+  h1 {
+    text-align: center;
+    color: brown;
+  }
+  .centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  button{
+      border-radius: 15px;
+      color: seagreen;
+      padding: 10px;
+      background-color: rgb(110, 227, 248);
+      border-color: rgb(36, 39, 211);
+  }
+  input[type="number"],select{
+    width: 5%; 
+    padding: 12px; 
+    border: 2px solid #628fe7; 
+    border-radius: 15px; 
+    resize: vertical; 
+    background-color: #efb64b; 
+  }
+
+

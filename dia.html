@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>si por favor</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Elige un dia
+        </h1>
+    </header>
+    <section>
+        <div class="diass" id="salida"></div>
+    </section>
+    <script language="javascript">
+        function diasem(p){
+            var dias=["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
+        midia=p
+        midia--;
+        if(midia>=0 && midia<7)
+        {r= dias[midia];}
+
+        else{
+            r="inexistente"
+        }
+        return r
+        }
+        dia=prompt("Introducir el número de tu dia favorito ..?",0);
+        document.getElementById("salida").innerHTML = "Tu dia favorito es "+diasem(dia)
+
+
+        </script>
+    
+</body>
+</html>
